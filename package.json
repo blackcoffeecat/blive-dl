@@ -1,5 +1,5 @@
 {
-  "name": "bili-dl",
+  "name": "blive-dl",
   "packageManager": "yarn@3.2.0",
   "type": "module",
   "main": "index.js",
