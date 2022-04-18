@@ -1,14 +1,20 @@
 {
   "name": "blive-dl",
   "packageManager": "yarn@3.2.0",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackcoffeecat/blive-dl.git"
+  },
+  "homepage": "https://github.com/blackcoffeecat/blive-dl",
+  "author": "BlackCoffeeCat",
   "type": "module",
-  "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "start": "node ."
   },
   "dependencies": {
+    "commander": "^9.2.0",
     "dayjs": "^1.11.1",
     "got": "^12.0.3"
   }
