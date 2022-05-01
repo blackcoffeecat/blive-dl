@@ -24,19 +24,16 @@ async function main(roomId, opt) {
     resolveBodyOnly: true,
     searchParams: {
       room_id: roomId,
-      protocol: '0,1',
-      format: '0,1,2',
-      codec: '0,1',
+      protocol: '0',
+      format: '0',
+      codec: '0',
       qn: '10000',
       platform: 'web',
-      ptype: '8',
-      dolby: '5',
     }
   }).json();
 
-  const object = res.data.playurl_info.playurl.stream.at(-1).format.at(-1).codec.at(-1);
-  const {base_url, url_info: [{host, extra}]} = object;
-  const m3u8 = `${host}${base_url}${extra}`;
+  const object = res.data.playurl_info.playurl.stream.at(0).format.at(0).codec.at(0);
+  const m3u8 = `${object.url_info.at(-1).host}${object.base_url}${object.url_info.at(-1).extra}`;
 
   if (background) {
     spawn('youtube-dl', [m3u8, '-o', filename], {cwd, detached: true, stdio: 'ignore'})
