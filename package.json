@@ -1,6 +1,6 @@
 {
   "name": "blive-dl",
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.2.1",
   "version": "0.0.4",
   "repository": {
     "type": "git",
