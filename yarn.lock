@@ -78,7 +78,7 @@ __metadata:
   dependencies:
     commander: ^9.2.0
     dayjs: ^1.11.1
-    got: ^12.0.3
+    got: 12.1.0
   bin:
     blive-dl: index.js
   languageName: unknown
@@ -187,9 +187,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:^12.0.3":
-  version: 12.0.3
-  resolution: "got@npm:12.0.3"
+"got@npm:12.1.0":
+  version: 12.1.0
+  resolution: "got@npm:12.1.0"
   dependencies:
     "@sindresorhus/is": ^4.6.0
     "@szmarczak/http-timer": ^5.0.1
@@ -204,7 +204,7 @@ __metadata:
     lowercase-keys: ^3.0.0
     p-cancelable: ^3.0.0
     responselike: ^2.0.0
-  checksum: 69a5c625ffe52f9e3869fbf72eac7f4bd93edacdacb59933711e2078e33153e43276893bffa7c3b1a9973a85bbd22eace5dfe9d755fdda2ade878a4553d4f380
+  checksum: 1cc9af6ca511338a7f1bbb0943999e6ac324ea3c7d826066c02e530b4ac41147b1a4cadad21b28c3938de82185ac99c33d64a3a4560c6e0b0b125191ba6ee619
   languageName: node
   linkType: hard
 
