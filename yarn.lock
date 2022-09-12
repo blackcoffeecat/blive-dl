@@ -73,12 +73,12 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-commander@^9.2.0:
+commander@9.4.0:
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
   integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
 
-dayjs@^1.11.1:
+dayjs@1.11.5:
   version "1.11.5"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.5.tgz#00e8cc627f231f9499c19b38af49f56dc0ac5e93"
   integrity sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==
@@ -119,7 +119,7 @@ get-stream@^6.0.1:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-got@^12.0.3:
+got@12.4.1:
   version "12.4.1"
   resolved "https://registry.yarnpkg.com/got/-/got-12.4.1.tgz#8598311b42591dfd2ed3ca4cdb9a591e2769a0bd"
   integrity sha512-Sz1ojLt4zGNkcftIyJKnulZT/yEDvifhUjccHA8QzOuTgPs/+njXYNMFE3jR4/2OODQSSbH8SdnoLCkbh41ieA==
